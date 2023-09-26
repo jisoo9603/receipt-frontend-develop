@@ -1,0 +1,83 @@
+.header_dep_one{
+    width: 100%;
+    height: 104px;
+    display: flex;
+    background-color: #E6F4D8;
+}
+.header_dep_two_center{
+    width: 40%;
+    place-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    margin-left: 20px;
+}
+.header_dep_two_center .logo{
+    background-image: url("../img/logo.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 254px;
+    height: 104px;
+}
+
+
+.header_dep_two_right{
+    height: 100%;
+    width: 60%;
+}
+.header_dep_two_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_dep_two_right_btn{
+    display: flex;
+    place-content: center;
+    place-items: center;
+    height: 30%;
+    width: 100%;
+    justify-content: space-evenly;
+    font-size: 24px;
+    font-weight: bold;
+}
+.header_dep_two_right_btn> a > div{
+    display: flex;
+    place-items: center;
+}
+
+.header_dep_two_right_btn >a> div >div{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    place-items: center;
+    width: 64px;
+    height: 64px;
+    margin-right: 10px;
+}
+
+.header_dep_two_right_btn .info{
+    background-image: url("../img/info.png");    
+}
+.header_dep_two_right_btn .input{
+    background-image: url("../img/input.png");
+    width: 45px;
+    height: 45px;
+}
+.header_dep_two_right_btn .search{
+    background-image: url("../img/search.png");
+    width: 44px;
+    height: 44px;
+}
+
+.login{
+    margin-left: 750px;
+    background-image: url("../img/logoutbtn.png");
+}
+
+.logout{
+    background-image: url("../img/logoutbtn.png");
+}
